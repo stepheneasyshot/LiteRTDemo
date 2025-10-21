@@ -62,4 +62,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.redfincommonhelper)
+
+    // LiteRT dependencies for Google Play services
+    implementation("com.google.android.gms:play-services-tflite-java:16.4.0")
+    // Optional: include LiteRT Support Library
+    implementation("com.google.android.gms:play-services-tflite-support:16.4.0")
 }
