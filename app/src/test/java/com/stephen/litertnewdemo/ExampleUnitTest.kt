@@ -1,4 +1,4 @@
-package com.example.litertdemo
+package com.stephen.litertnewdemo
 
 import org.junit.Test
 

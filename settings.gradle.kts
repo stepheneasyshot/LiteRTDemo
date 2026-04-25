@@ -1,8 +1,5 @@
 pluginManagement {
     repositories {
-        maven("https://maven.aliyun.com/repository/google")
-        maven("https://maven.aliyun.com/repository/public")
-        maven("https://maven.aliyun.com/repository/gradle-plugin")
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -11,22 +8,21 @@ pluginManagement {
             }
         }
         mavenCentral()
-        maven("https://jitpack.io")
         gradlePluginPortal()
     }
+}
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven("https://maven.aliyun.com/repository/google")
-        maven("https://maven.aliyun.com/repository/public")
-        maven("https://maven.aliyun.com/repository/gradle-plugin")
         google()
-        maven("https://jitpack.io")
         mavenCentral()
+        maven("https://jitpack.io")
     }
 }
 
-rootProject.name = "LiteRTDemo"
+rootProject.name = "LiteRTNewDemo"
 include(":app")
  

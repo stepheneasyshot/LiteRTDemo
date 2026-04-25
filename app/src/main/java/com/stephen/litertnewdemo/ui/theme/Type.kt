@@ -1,4 +1,4 @@
-package com.example.litertdemo.ui.theme
+package com.stephen.litertnewdemo.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

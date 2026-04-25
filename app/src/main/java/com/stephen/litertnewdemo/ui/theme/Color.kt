@@ -1,4 +1,4 @@
-package com.example.litertdemo.ui.theme
+package com.stephen.litertnewdemo.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
